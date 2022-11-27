@@ -13,6 +13,6 @@ var eltitle = document.querySelector('.title');
 if (balance >= 0) {
     eltitle.textContent = 'Oq yul Alisher';
 }else {
-    eltitle.textContent = 'Pul yoq Alisher';
+    eltitle.textContent = -balance + ' sum yetmayapti. Alisher, ozgina sabr qilish kerak bular ekan.';
 }
 
